@@ -1,17 +1,26 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
-/tmp
+emberchat.com/dist
+emberchat.com/tmp
 
 # dependencies
-/node_modules
-/bower_components
+emberchat.com/node_modules
+emberchat.com/bower_components
 
 # misc
-/.sass-cache
-/connect.lock
-/coverage/*
-/libpeerconnection.log
-npm-debug.log
-testem.log
+emberchat.com/.sass-cache
+emberchat.com/connect.lock
+emberchat.com/coverage/*
+emberchat.com/libpeerconnection.log
+emberchat.com/npm-debug.log
+emberchat.com/testem.log
+
+
+api.emberchat.com/.bundle
+api.emberchat.com/db/*.sqlite3
+api.emberchat.com/db/*.sqlite3-journal
+
+!/log/.keep
+api.emberchat.com/tmp
+api.emberchat.com/Gemfile.lock
