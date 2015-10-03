@@ -20,7 +20,8 @@ emberchat.com/testem.log
 api.emberchat.com/.bundle
 api.emberchat.com/db/*.sqlite3
 api.emberchat.com/db/*.sqlite3-journal
-
+api.emberchat.com/log/*
 !/log/.keep
 api.emberchat.com/tmp
 api.emberchat.com/Gemfile.lock
+.vagrant
