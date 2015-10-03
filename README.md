@@ -50,6 +50,10 @@ $ ember serve
 # In the second:
 $ cd /srv/api.emberchat.com
 $ bundle
+$ bundle exec rails generate rspec:install
+$ bundle exec rails generate active_admin:install
+$ bundle exec spring binstub --all
+$ bundle exec rake db:create db:migrate
 $ rails s -b0.0.0.0
 # you can now find the ember here: http://33.33.33.100:3000/
 ```
