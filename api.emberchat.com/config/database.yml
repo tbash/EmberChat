@@ -9,7 +9,13 @@ development:
 
 test:
   adapter: postgresql
+  encoding: unicode
+  database: emberchat_test
+  pool: 5
+  username: vagrant 
+  password:
   prepared_statements: false
+
 
 production:
   adapter: postgresql
