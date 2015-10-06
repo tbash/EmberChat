@@ -5,7 +5,10 @@ var Router = Ember.Router.extend({
   location: config.locationType
 });
 
-Router.map(function() {
+export default Router.map(function() {
+  this.resource('users', function() {
+    this.resource('user', {path: '/:user_id'});
+  });
+  this.route('users', function() {});
+  this.route('user');
 });
-
-export default Router;

@@ -35,8 +35,8 @@ group :development, :test do
   gem "pry-stack_explorer"
   gem "pry-theme"
   gem "rspec-rails"
+  gem 'shoulda-matchers', require: false
   gem "rubocop"
-  gem "shoulda-matchers"
   gem "spring-commands-rspec"
   gem 'byebug'
   gem 'web-console', '~> 2.0'
