@@ -33,16 +33,14 @@ $ cd /path/to/EmberChat
 $ vagrant up
 # Open two terminal tabs or windows
 # In the first:
-$ vagrant ssh
-$ sudo npm install -g n
-$ sudo npm install -g ember-cli
-$ sudo npm install -g bower
-$ sudo n stable
-$ cd /srv/emberchat.com
+$ npm install -g n
+$ npm install -g ember-cli
+$ npm install -g bower
+$ n stable
 # This can be done outside of vagrant
-$ sudo npm install && sudo bower install
+$ npm install && bower install
 $ ember serve
-# you can now find the ember side here: http://33.33.33.100:4200/
+# you can now find the ember side here: http://localhost:4200/
 
 # In the second:
 $ vagrant ssh
@@ -55,4 +53,5 @@ $ rake db:setup db:migrate
 $ rails s -b0.0.0.0
 # you can now find the rails side here: http://33.33.33.100:3000/admin
 # log in with username: admin@tbash.co password: password
+# you can now find the rails routes/docs here: http://33.33.33.100:3000/documentation
 ```
