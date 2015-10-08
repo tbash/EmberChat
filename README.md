@@ -26,31 +26,27 @@
  * Vagrant
  * Virtual Machine
  * Git
+ * npm
+ * bower
+ * ember-cli
 * Fork and clone
 
 ```sh
 $ cd /path/to/EmberChat
-$ vagrant up
 # Open two terminal tabs or windows
 # In the first:
-$ npm install -g n
-$ npm install -g ember-cli
-$ npm install -g bower
-$ n stable
-# This can be done outside of vagrant
+$ cd emberchat.com
 $ npm install && bower install
 $ ember serve
 # you can now find the ember side here: http://localhost:4200/
 
 # In the second:
+$ vagrant up
 $ vagrant ssh
 $ cd /srv/api.emberchat.com
 $ bundle
-$ rails g rspec:install
-$ rails g active_admin:install
-$ spring binstub --all
 $ rake db:setup db:migrate
-$ rails s -b0.0.0.0
+$ rails s
 # you can now find the rails side here: http://33.33.33.100:3000/admin
 # log in with username: admin@tbash.co password: password
 # you can now find the rails routes/docs here: http://33.33.33.100:3000/documentation

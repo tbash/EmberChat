@@ -11,7 +11,6 @@ Vagrant.configure(2) do |config|
   config.vm.network "forwarded_port", guest: 4200, host: 4201 # Ember
 
   config.vm.synced_folder "./api.emberchat.com", "/srv/api.emberchat.com"
-  config.vm.synced_folder "./emberchat.com", "/srv/emberchat.com"
 
   config.vm.provider "virtualbox" do |vb|
     vb.cpus = "2"
