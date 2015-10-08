@@ -22,13 +22,17 @@
 
 ### Setting up dev environment
 * Requirements
- * Ruby
- * Vagrant
- * Virtual Machine
- * Git
- * npm
- * bower
- * ember-cli
+ * [Ruby](https://www.ruby-lang.org/en/)
+ * Bundler
+  * `$ gem install bundler`
+ * [Rails](http://guides.rubyonrails.org/)
+ * [Vagrant](https://www.vagrantup.com/)
+ * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+ * [Git](http://git-scm.com/)
+ * [Node.js](http://nodejs.org/) (with NPM)
+ * [Bower](http://bower.io/)
+ * [Ember CLI](http://www.ember-cli.com/)
+ * [PhantomJS](http://phantomjs.org/)
 * Fork and clone
 
 ```sh
