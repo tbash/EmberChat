@@ -23,8 +23,6 @@
 ### Setting up dev environment
 * Requirements
  * [Ruby](https://www.ruby-lang.org/en/)
- * Bundler -> `$ gem install bundler`
- * [Rails](http://guides.rubyonrails.org/)
  * [Vagrant](https://www.vagrantup.com/)
  * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
  * [Git](http://git-scm.com/)
