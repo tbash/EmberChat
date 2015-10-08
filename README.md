@@ -9,10 +9,6 @@
 
 #### Coming Next
 * A way to template future applications
-* Figure what needs to be bootstrapped to set up a simple dev env using vagrant
- * Doing this will help figure out what server configuration this type of app will require
-
-
 
 #### Additional Notes
 * I feel this is the almost any app should be structure (separating front-end from back-end)
