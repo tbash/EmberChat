@@ -9,9 +9,10 @@
 
 #### Coming Next
 * A way to template future applications
+* Messages
 
 #### Additional Notes
-* I feel this is the almost any app should be structure (separating front-end from back-end)
+* I feel this is the almost any app should be structure (separate front-end and back-end)
 * This will
  * Make for easier testing
  * Faster debugging
@@ -42,7 +43,7 @@ $ vagrant up
 $ vagrant ssh
 $ cd /srv/api.emberchat.com
 $ bundle
-$ rake db:setup db:migrate
+$ rake db:setup
 $ rails s
 # you can now find the rails side here: http://33.33.33.100:3000/admin
 # log in with username: admin@tbash.co password: password
