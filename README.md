@@ -43,8 +43,8 @@ $ vagrant up
 $ vagrant ssh
 $ cd /srv/api.emberchat.com
 $ bundle
-$ rake db:setup
-$ rails s
+$ bundle exec rake db:setup
+$ bundle exec rails s
 # you can now find the rails side here: http://33.33.33.100:3000/admin
 # log in with username: admin@tbash.co password: password
 # you can now find the rails routes/docs here: http://33.33.33.100:3000/documentation
