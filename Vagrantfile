@@ -8,7 +8,6 @@ Vagrant.configure(2) do |config|
 
   config.vm.network "private_network", ip: "33.33.33.100"
   config.vm.network "forwarded_port", guest: 3000, host: 3001 # Rails
-  config.vm.network "forwarded_port", guest: 4200, host: 4201 # Ember
 
   config.vm.synced_folder "./api.emberchat.com", "/srv/api.emberchat.com"
 
