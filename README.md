@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/teebash/EmberChat.png?label=ready&title=Ready)](https://waffle.io/teebash/EmberChat)
 # EmberChat
 
 ### In development
