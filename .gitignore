@@ -26,3 +26,5 @@ api.emberchat.com/tmp
 api.emberchat.com/Gemfile.lock
 .vagrant
 .DS_Store
+.swp
+*~
